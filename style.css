@@ -5,12 +5,12 @@ body {
     height: 100vh;
     align-items: center;
     text-align: center;
-    background-color: rgb(246, 246, 120);
+    background-color: rgb(120, 133, 247);
     font-family: cursive;
 }
 
 .form {
-    background-color: white;
+    background-color: rgb(247, 191, 247);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0 , .3);
     border-radius: 20px;
@@ -29,8 +29,9 @@ body {
     padding: 5px;
 
     font-size: 20px;
-    border: solid 4px green;
+    border: solid 4px rgb(237, 53, 237);
     color: green;
+    box-shadow: 0 4px 4px  rgba(0, 0, 0 , .3);
 }
 
 .input::placeholder {
@@ -39,7 +40,7 @@ body {
 }
 
 .btn {
-    background-color: green;
+    background-color: rgb(222, 45, 222);
     color: white;
     border: none;
     display: block;
@@ -52,5 +53,16 @@ body {
     padding: 10px;
     font-size: 20px;
     font-family: cursive;
-    box-shadow: ;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+.score {
+    color: purple;
+    text-align: right;
+    font-size: 20px;
 }
