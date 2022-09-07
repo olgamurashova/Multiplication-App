@@ -5,14 +5,14 @@ body {
     height: 100vh;
     align-items: center;
     text-align: center;
-    background-color: rgb(120, 133, 247);
+    background-color: rgb(137, 148, 244);
     font-family: cursive;
 }
 
 .form {
     background-color: rgb(247, 191, 247);
     padding: 20px;
-    box-shadow: 0 0 15px rgb(80, 9, 80), 0 0 15px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1), 0 0 8px 0;
     border-radius: 20px;
     margin: 10px;
 
@@ -33,7 +33,7 @@ body {
     font-family: cursive;
     font-weight: bold;
     border: solid 4px rgb(237, 53, 237);
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3), 0 0 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .input::placeholder {
