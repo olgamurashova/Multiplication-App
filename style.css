@@ -12,7 +12,7 @@ body {
 .form {
     background-color: rgb(247, 191, 247);
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0 , .3);
+    box-shadow: 0 0 15px rgb(80, 9, 80), 0 0 15px 0 rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     margin: 10px;
 
@@ -22,22 +22,26 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 60%;
     height: 70px;
     box-sizing: border-box;
     text-align: center;
     padding: 5px;
 
     font-size: 20px;
+    color: purple;
+    font-family: cursive;
+    font-weight: bold;
     border: solid 4px rgb(237, 53, 237);
-    color: green;
-    box-shadow: 0 4px 4px  rgba(0, 0, 0 , .3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .input::placeholder {
     color: lightgrey;
     font-family: cursive;
 }
+
+
 
 .btn {
     background-color: rgb(222, 45, 222);
@@ -47,13 +51,13 @@ body {
     width: 25%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     border-radius: 15px;
     padding: 10px;
     font-size: 20px;
     font-family: cursive;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.3);
+    box-shadow: 0 0 5px rgb(66, 5, 66), 0 0 5px 0 rgb(66, 5, 66);
     cursor: pointer;
 }
 
