@@ -5,8 +5,11 @@ const question = document.getElementById("question");
 question.innerText = `What is ${num1} multiply by ${num2}?`;
 
 
-const formInput = document.getElementById("form");
-const input = document.getElementById("id");
+const formEl = document.getElementById("form");
+const input = document.getElementById("input");
+const scoreEl = document.getElementById("score");
+
+scoreEl.innerText = `score: ${score} `;
 
 const correctAnswer = num1 * num2;
 
@@ -16,18 +19,16 @@ if(!score){
     score = 0;
 }
 
-formInput.addEventListener("submit", ()=>{
-    const userAnswer = +input.ariaValueMax;
-    if(typeof userAnswer === "string"){
-        console.log("Please enter number")
-    }
+formEl.addEventListener("submit", () => {
+    const userAnswer = +input.value;
+    
      if(userAnswer === correctAnswer) {
         score++;
-       updateLocalStorage();
+       updateLocalStorage()
      }
      else{
         score--;
-        updateLocalStorage();
+        updateLocalStorage()
      }
 
 
